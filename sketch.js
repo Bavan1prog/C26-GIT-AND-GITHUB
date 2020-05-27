@@ -40,7 +40,8 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
-    Engine.update(engine);
+     Engine.update(engine);
+     text("Bavan's Angry Birds Games",200,200);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
     console.log(box2.body.angle);
